@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Doaa Mogahed | Biotechnology Graduate & Bioinformatics Researcher</title>
+  <meta name="title" content="Doaa Mogahed | Biotechnology Graduate & Bioinformatics Researcher">
+  <meta name="description" content="Official academic & research portfolio of Doaa Mogahed — Biotechnology graduate (MSA & University of Greenwich) with expertise in bioinformatics, molecular biology, sequence analysis, and computational biology.">
+  <meta name="keywords" content="Doaa Mogahed, Biotechnology, Bioinformatics, Computational Biology, Sequence Analysis, Molecular Biology, MSA University, University of Greenwich, Cu-BiOBr, Genomics">
+  <meta name="author" content="Doaa Mogahed">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Doaa Mogahed | Biotechnology Graduate & Bioinformatics Researcher">
+  <meta property="og:description" content="Academic & research portfolio of Doaa Mogahed — Biotechnology graduate specializing in bioinformatics, sequence analysis, and laboratory research.">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for scientific/academic iconography -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data JSON-LD for Academic/Researcher Profile -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Doaa Mogahed",
+    "jobTitle": "Biotechnology Graduate & Bioinformatics Researcher",
+    "email": "mailto:doaa.mogahed@msa.edu",
+    "telephone": "+201226681807",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Qaliobia",
+      "addressCountry": "Egypt"
+    },
+    "alumniOf": [
+      {
+        "@type": "EducationalOrganization",
+        "name": "October University for Modern Sciences and Arts (MSA)"
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "University of Greenwich"
+      }
+    ],
+    "knowsAbout": [
+      "Biotechnology",
+      "Bioinformatics",
+      "Computational Biology",
+      "Molecular Biology",
+      "Sequence Alignment",
+      "Genomics",
+      "Bioreactor Engineering"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Ambient Scientific Background Canvas -->
+  <canvas id="bio-canvas" class="bio-canvas" aria-hidden="true"></canvas>
+
+  <!-- Notification Toast Container -->
+  <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Doaa Mogahed Home">
+        <span class="logo-icon"><i class="fa-solid fa-dna"></i></span>
+        <div class="logo-text">
+          <span class="logo-name">Doaa Mogahed</span>
+          <span class="logo-sub">B.Sc. Biotechnology</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active" data-nav="hero">Home</a></li>
+          <li><a href="#about" class="nav-link" data-nav="about">About</a></li>
+          <li><a href="#education" class="nav-link" data-nav="education">Education</a></li>
+          <li><a href="#research" class="nav-link" data-nav="research">Research</a></li>
+          <li><a href="#publications" class="nav-link" data-nav="publications">Publications</a></li>
+          <li><a href="#skills" class="nav-link" data-nav="skills">Skills</a></li>
+          <li><a href="#experience" class="nav-link" data-nav="experience">Experience</a></li>
+          <li><a href="#achievements" class="nav-link" data-nav="achievements">Awards</a></li>
+          <li><a href="#contact" class="nav-link" data-nav="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Utility Controls: Theme Toggle & CV Download -->
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle visual theme" title="Toggle Light / Dark mode">
+          <i class="fa-solid fa-moon dark-icon"></i>
+          <i class="fa-solid fa-sun light-icon"></i>
+        </button>
+        <a href="Doaa_Mogahed_CV.pdf" download="Doaa_Mogahed_CV.pdf" class="btn btn-sm btn-outline-cyan nav-cv-btn" id="nav-download-cv">
+          <i class="fa-solid fa-file-arrow-down"></i>
+          <span>CV PDF</span>
+        </a>
+        <button id="mobileMenuBtn" class="mobile-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="section hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge animate-fade-in">
+            <span class="pulse-indicator"></span>
+            <span class="badge-text">Biotechnology Graduate &middot; Computational Biology Enthusiast</span>
+          </div>
+
+          <h1 class="hero-title animate-fade-in delay-1">
+            Doaa Mogahed
+          </h1>
+
+          <div class="hero-headline animate-fade-in delay-2">
+            <span class="headline-part">Biotechnology Graduate</span>
+            <span class="headline-divider">&bull;</span>
+            <span class="headline-accent">Bioinformatics &amp; Computational Biology</span>
+          </div>
+
+          <p class="hero-summary animate-fade-in delay-3">
+            Biotechnology graduate with a strong dual-degree foundation (MSA University &amp; University of Greenwich). Equipped with comprehensive hands-on laboratory experience, biological sequence analysis, and AI-assisted programming to investigate genomic, biochemical, and bioprocessing challenges.
+          </p>
+
+          <!-- Core Academic Meta Chips strictly from CV -->
+          <div class="hero-meta-chips animate-fade-in delay-4">
+            <div class="meta-chip">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Dual B.Sc. (MSA &amp; Greenwich)</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>GPA: 3.2 / 4.0 &middot; UK: 3.08 / 4.0</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fa-solid fa-scroll"></i>
+              <span>2 First-Author Manuscripts (Under Review)</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fa-solid fa-trophy"></i>
+              <span>1st Place Symposium Winner</span>
+            </div>
+          </div>
+
+          <!-- Hero CTAs -->
+          <div class="hero-actions animate-fade-in delay-5">
+            <a href="#research" class="btn btn-primary" id="hero-btn-projects">
+              <i class="fa-solid fa-flask-vial"></i>
+              <span>View Research &amp; Projects</span>
+            </a>
+            <a href="#publications" class="btn btn-secondary" id="hero-btn-research">
+              <i class="fa-solid fa-book-journal-whills"></i>
+              <span>View Manuscripts</span>
+            </a>
+            <a href="Doaa_Mogahed_CV.pdf" download="Doaa_Mogahed_CV.pdf" class="btn btn-outline" id="hero-btn-download">
+              <i class="fa-solid fa-download"></i>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost" id="hero-btn-contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact Me</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Scientific Visualization Card -->
+        <div class="hero-visual animate-fade-in delay-3">
+          <div class="profile-card-glass">
+            <div class="card-glow"></div>
+            
+            <div class="profile-avatar-wrapper">
+              <div class="avatar-ring">
+                <div class="avatar-inner">
+                  <i class="fa-solid fa-dna avatar-symbol"></i>
+                </div>
+              </div>
+              <span class="status-indicator" title="Available for Bioinformatics, Research Assistant & Scholarship Opportunities"></span>
+            </div>
+
+            <div class="profile-card-info">
+              <h3 class="profile-name">Doaa Mogahed</h3>
+              <p class="profile-role">Biotechnology Graduate</p>
+              <div class="location-badge">
+                <i class="fa-solid fa-location-dot"></i> Qaliobia, Egypt
+              </div>
+            </div>
+
+            <!-- Focus areas quick cards -->
+            <div class="focus-grid">
+              <div class="focus-item">
+                <span class="focus-label">Sequence Analysis</span>
+                <span class="focus-val">BLAST &middot; MEGA &middot; FASTA</span>
+              </div>
+              <div class="focus-item">
+                <span class="focus-label">Databases</span>
+                <span class="focus-val">NCBI &middot; Ensembl &middot; UniProt</span>
+              </div>
+              <div class="focus-item">
+                <span class="focus-label">Research Status</span>
+                <span class="focus-val text-emerald">2 First-Author Papers</span>
+              </div>
+              <div class="focus-item">
+                <span class="focus-label">Degree Grade</span>
+                <span class="focus-val text-cyan">A+ Graduation Project</span>
+              </div>
+            </div>
+
+            <div class="card-footer-strip">
+              <span class="badge-tag"><i class="fa-solid fa-check-double"></i> Verified CV Credentials</span>
+              <span class="badge-tag"><i class="fa-solid fa-language"></i> English (Fluent) &middot; Arabic (Native)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll down indicator -->
+      <a href="#about" class="scroll-down-hint" aria-label="Scroll to About Section">
+        <span>Explore Profile</span>
+        <i class="fa-solid fa-angles-down bounce"></i>
+      </a>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-user-astronaut"></i> Biography</div>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Grounding molecular biology &amp; laboratory rigor into computational inquiry
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio-card">
+            <h3 class="bio-heading">
+              Dedicated Biotechnology Graduate with Research &amp; Computational Focus
+            </h3>
+            <p class="bio-paragraph">
+              I am a Biotechnology graduate holding dual Bachelor’s degrees from <strong>October University for Modern Sciences and Arts (MSA)</strong>, Egypt, and the <strong>University of Greenwich</strong>, UK. My academic and research formation combines comprehensive wet-lab proficiencies across molecular biology, microbiology, and bioprocessing with analytical capabilities in biological sequence analysis and computational biology.
+            </p>
+            <p class="bio-paragraph">
+              Throughout my degree, I have led two major graduation investigations as <strong>First Author</strong> (both currently under peer review for publication): engineering a novel <em>Cu-BiOBr 3D Porous Sponge</em> for heavy metal wastewater remediation (awarded Grade A+), and elucidating the <em>physiological and biochemical modulations of gamma irradiation</em> on eggplant fruit.
+            </p>
+            <p class="bio-paragraph">
+              My current academic aspiration is centered on <strong>bioinformatics, computational biology, sequence alignment, and multiomics</strong>. I actively utilize biological sequence analysis tools (BLAST, BioEdit, SnapGene, MEGA, Clustal Omega), navigate biological databases (NCBI, Ensembl, UniProt), and leverage AI-assisted programming alongside coursework in Python, R, and C++ to bridge computational logic with real-world biological systems.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar">
+                <div class="pillar-icon"><i class="fa-solid fa-microscope"></i></div>
+                <div>
+                  <h4>Molecular &amp; Wet-Lab Rigor</h4>
+                  <p>DNA/RNA extraction, PCR, gel electrophoresis, HPLC, and cell culture handling.</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <div class="pillar-icon"><i class="fa-solid fa-code-merge"></i></div>
+                <div>
+                  <h4>Bioinformatics &amp; Sequences</h4>
+                  <p>Sequence alignments, annotation, FASTA manipulation, and plasmid design with SnapGene.</p>
+                </div>
+              </div>
+              <div class="pillar">
+                <div class="pillar-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <div>
+                  <h4>Computational Exploration</h4>
+                  <p>AI-assisted tool development, biostatistics, modeling, and foundational Python/R/C++.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick facts sidebar -->
+          <div class="about-sidebar">
+            <div class="profile-highlight-box">
+              <h4 class="highlight-title"><i class="fa-solid fa-address-card"></i> Candidate Overview</h4>
+              
+              <ul class="fact-list">
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-user"></i> Full Name:</span>
+                  <span class="fact-val">Doaa Mogahed</span>
+                </li>
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-bullseye"></i> Career Goal:</span>
+                  <span class="fact-val">Bioinformatics / Computational Biology RA &amp; Postgrad</span>
+                </li>
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-graduation-cap"></i> Degree:</span>
+                  <span class="fact-val">B.Sc. Biotechnology (2021–2025)</span>
+                </li>
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-university"></i> Universities:</span>
+                  <span class="fact-val">MSA University &amp; Univ. of Greenwich</span>
+                </li>
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-star"></i> Cumulative GPA:</span>
+                  <span class="fact-val">3.2 / 4.0 (Very Good) &middot; UK: 3.08 / 4.0</span>
+                </li>
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-location-dot"></i> Location:</span>
+                  <span class="fact-val">Qaliobia, Egypt</span>
+                </li>
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-envelope"></i> Institutional Email:</span>
+                  <span class="fact-val"><a href="mailto:doaa.mogahed@msa.edu">doaa.mogahed@msa.edu</a></span>
+                </li>
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-phone"></i> Mobile:</span>
+                  <span class="fact-val">+20 1226681807</span>
+                </li>
+                <li class="fact-row">
+                  <span class="fact-key"><i class="fa-solid fa-language"></i> Languages:</span>
+                  <span class="fact-val">English (Fluent), Arabic (Native)</span>
+                </li>
+              </ul>
+
+              <div class="cv-prompt-box">
+                <p class="cv-prompt-text">
+                  <i class="fa-solid fa-circle-info"></i> All details strictly verified against official university transcripts and CV records.
+                </p>
+                <a href="Doaa_Mogahed_CV.pdf" download="Doaa_Mogahed_CV.pdf" class="btn btn-outline-cyan btn-full">
+                  <i class="fa-solid fa-file-pdf"></i> Download Official CV
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. EDUCATION SECTION -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Credentials</div>
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Dual-accredited Bachelor of Science in Biotechnology (2021 &ndash; 2025)
+          </p>
+        </div>
+
+        <div class="education-card-wrapper">
+          <div class="education-card">
+            <div class="edu-header">
+              <div class="edu-icon-wrap">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <div class="edu-title-group">
+                <div class="edu-period">2021 &ndash; 2025 &middot; Dual Degree Program</div>
+                <h3 class="edu-degree">Bachelor of Science in Biotechnology</h3>
+                <div class="edu-institutions">
+                  <span class="inst-pill"><i class="fa-solid fa-landmark"></i> October University for Modern Sciences and Arts (MSA), Egypt</span>
+                  <span class="inst-pill"><i class="fa-solid fa-landmark"></i> University of Greenwich, United Kingdom</span>
+                </div>
+              </div>
+              <div class="edu-gpa-badge">
+                <div class="gpa-number">3.2 / 4.0</div>
+                <div class="gpa-label">Grade: Very Good</div>
+                <div class="gpa-uk">UK GPA: 3.08 / 4.0</div>
+              </div>
+            </div>
+
+            <div class="edu-body">
+              <h4 class="edu-body-title"><i class="fa-solid fa-diagram-project"></i> Dual Graduation Research Investigations</h4>
+              <p class="edu-body-intro">
+                Under the rigorous curriculum validated jointly by MSA University and the University of Greenwich, completed two extensive experimental graduation projects serving as First Author on both manuscripts:
+              </p>
+
+              <div class="grad-projects-grid">
+                <!-- Graduation Project 1 -->
+                <div class="grad-card">
+                  <div class="grad-card-tag grade-a-plus">
+                    <span>Grade: A+ (Excellent)</span>
+                    <span class="badge-status">Under Review</span>
+                  </div>
+                  <h5 class="grad-card-title">
+                    Cu-Doped Bismuth Oxybromide (Cu-BiOBr) 3D Porous Sponge for Enhanced Lead (Pb²⁺) Adsorption from Wastewater
+                  </h5>
+                  <p class="grad-card-desc">
+                    Synthesized novel copper-doped bismuth oxybromide within a 3D porous sponge matrix via solvothermal protocols for high-capacity heavy metal ion remediation.
+                  </p>
+                  <div class="grad-card-meta">
+                    <span class="meta-item"><i class="fa-solid fa-user-pen"></i> Role: First Author</span>
+                    <span class="meta-item"><i class="fa-solid fa-certificate"></i> Grade: A+ (Highest Honors)</span>
+                  </div>
+                </div>
+
+                <!-- Graduation Project 2 -->
+                <div class="grad-card">
+                  <div class="grad-card-tag grade-vg">
+                    <span>Grade: Very Good</span>
+                    <span class="badge-status">Under Review</span>
+                  </div>
+                  <h5 class="grad-card-title">
+                    Role of Gamma Irradiation in Modulating Morphological, Physiological, and Biochemical Profiles of Eggplant Fruit
+                  </h5>
+                  <p class="grad-card-desc">
+                    Comprehensive study evaluating how targeted gamma radiation induces physiological, morphological, and biochemical alterations in post-harvest eggplant tissues.
+                  </p>
+                  <div class="grad-card-meta">
+                    <span class="meta-item"><i class="fa-solid fa-user-pen"></i> Role: First Author</span>
+                    <span class="meta-item"><i class="fa-solid fa-certificate"></i> Grade: Very Good</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Relevant Coursework strictly derived from CV -->
+              <div class="coursework-block">
+                <span class="coursework-label"><i class="fa-solid fa-book-open"></i> Key Curriculum Areas:</span>
+                <div class="course-tags">
+                  <span class="c-tag">Bioinformatics</span>
+                  <span class="c-tag">Genomics &amp; Proteomics</span>
+                  <span class="c-tag">Molecular Biology</span>
+                  <span class="c-tag">Microbiology</span>
+                  <span class="c-tag">Genetics</span>
+                  <span class="c-tag">Bioreactor Engineering</span>
+                  <span class="c-tag">Bioprocessing</span>
+                  <span class="c-tag">Programming Fundamentals &amp; AI</span>
+                  <span class="c-tag">Biostatistics &amp; Biokinetic Modeling</span>
+                  <span class="c-tag">Python, R, C++ Coursework</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. RESEARCH & PROJECTS SECTION -->
+    <section id="research" class="section research-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-microchip"></i> Portfolios of Inquiry</div>
+          <h2 class="section-title">Research &amp; Scientific Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Six rigorous projects spanning bioinformatics, nanomaterial adsorption, irradiation biophysics, environmental bioremediation, CRISPR gene editing, and bioprocess engineering.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+          <button class="filter-btn" data-filter="bioinformatics">Bioinformatics &amp; Genomics</button>
+          <button class="filter-btn" data-filter="nanotech">Nanotech &amp; Adsorption</button>
+          <button class="filter-btn" data-filter="bioprocess">Bioprocess &amp; Remediation</button>
+          <button class="filter-btn" data-filter="plant">Plant Biotechnology</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- PROJECT 1: Cu-BiOBr 3D Sponge -->
+          <article class="project-card" data-category="nanotech" id="project-cu-biobr">
+            <div class="project-card-header">
+              <div class="project-type-tag">
+                <i class="fa-solid fa-atom"></i> Graduation Thesis &middot; Nanobiotechnology
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-accent">Grade: A+</span>
+                <span class="badge badge-warning">Under Review</span>
+                <span class="badge badge-cyan">First Author</span>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">
+                Cu-Doped Bismuth Oxybromide (Cu-BiOBr) 3D Porous Sponge for Enhanced Lead (Pb²⁺) Adsorption from Wastewater
+              </h3>
+
+              <div class="project-meta-grid">
+                <div class="p-meta-item">
+                  <span class="label">Research Question:</span>
+                  <p class="text">How can copper doping and 3D porous sponge architecture enhance the selective adsorption capacity and kinetics of toxic lead (Pb²⁺) ions from industrial wastewater?</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">Approach &amp; Methodology:</span>
+                  <p class="text">Engineered Cu-BiOBr photocatalytic/adsorptive nanomaterials via solvothermal synthesis; integrated into a 3D porous sponge framework; analyzed adsorption kinetics and removal efficacy using UV-Vis-NIR spectrophotometry.</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">My Role:</span>
+                  <p class="text"><strong>First Author &amp; Lead Investigator:</strong> Handled material synthesis protocols, experimental design, characterization, data modeling, and drafted the research manuscript.</p>
+                </div>
+              </div>
+
+              <div class="project-techniques">
+                <span class="tech-pill">Solvothermal Nanomaterial Synthesis</span>
+                <span class="tech-pill">3D Porous Sponge Fabrication</span>
+                <span class="tech-pill">UV-Vis-NIR Spectrophotometry</span>
+                <span class="tech-pill">Adsorption Kinetics</span>
+                <span class="tech-pill">Origin Data Analysis</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="status-indicator-box">
+                <i class="fa-solid fa-file-circle-check text-warning"></i>
+                <span>Status: Manuscript Under Review &middot; Grade A+</span>
+              </div>
+              <button class="btn btn-sm btn-outline-cyan open-modal-btn" data-modal="modal-cu-biobr">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Gamma Irradiation on Eggplant -->
+          <article class="project-card" data-category="plant" id="project-gamma">
+            <div class="project-card-header">
+              <div class="project-type-tag">
+                <i class="fa-solid fa-seedling"></i> Graduation Thesis &middot; Plant Biotechnology
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-accent">Grade: Very Good</span>
+                <span class="badge badge-warning">Under Review</span>
+                <span class="badge badge-cyan">First Author</span>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">
+                Role of Gamma Irradiation in Modulating Morphological, Physiological, and Biochemical Profiles of Eggplant Fruit
+              </h3>
+
+              <div class="project-meta-grid">
+                <div class="p-meta-item">
+                  <span class="label">Research Question:</span>
+                  <p class="text">How does acute gamma irradiation impact post-harvest physiology, morphological integrity, and critical biochemical and enzymatic defense pathways in eggplant (*Solanum melongena*)?</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">Approach &amp; Methodology:</span>
+                  <p class="text">Administered dosage-controlled gamma irradiation; quantitatively evaluated morphological metrics, tissue hydration, and biochemical profiles via spectrophotometric assays and statistical profiling.</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">My Role:</span>
+                  <p class="text"><strong>First Author &amp; Researcher:</strong> Conducted physiological measurements, biochemical extractions, quantitative spectrophotometry, and authored the complete research paper.</p>
+                </div>
+              </div>
+
+              <div class="project-techniques">
+                <span class="tech-pill">Plant Tissue Profiling</span>
+                <span class="tech-pill">Gamma Irradiation Protocol</span>
+                <span class="tech-pill">Biochemical Assays</span>
+                <span class="tech-pill">Spectrophotometry</span>
+                <span class="tech-pill">Statistical Analysis</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="status-indicator-box">
+                <i class="fa-solid fa-file-circle-check text-warning"></i>
+                <span>Status: Manuscript Under Review &middot; Grade Very Good</span>
+              </div>
+              <button class="btn btn-sm btn-outline-cyan open-modal-btn" data-modal="modal-gamma">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Complex Genome Analysis Artifact -->
+          <article class="project-card featured-award" data-category="bioinformatics" id="project-multiomics">
+            <div class="project-card-header">
+              <div class="project-type-tag">
+                <i class="fa-solid fa-network-wired"></i> Faculty Symposium &middot; Bioinformatics &amp; Multiomics
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-gold"><i class="fa-solid fa-trophy"></i> 1st Place Winner</span>
+                <span class="badge badge-purple">Multiomics</span>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">
+                Complex Genome Analysis / Multiomics in Food Microbiology and Safety
+              </h3>
+
+              <div class="project-meta-grid">
+                <div class="p-meta-item">
+                  <span class="label">Research Question:</span>
+                  <p class="text">How can complex microbial genome analysis and integrated multiomics paradigms elucidate pathogen surveillance, virulence tracking, and microbial safety in the food supply chain?</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">Approach &amp; Methodology:</span>
+                  <p class="text">Employed sequence alignment, database queries (NCBI, Ensembl), and multiomic analytical frameworks to evaluate microbial genomics, functional annotation, and contamination markers in food systems.</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">My Role:</span>
+                  <p class="text"><strong>Symposium Presenter &amp; Researcher:</strong> Synthesized genomic and multiomics datasets, authored the comprehensive artifact presentation, and defended the findings before the faculty panel.</p>
+                </div>
+              </div>
+
+              <div class="project-techniques">
+                <span class="tech-pill">Genome Analysis</span>
+                <span class="tech-pill">Multiomics Frameworks</span>
+                <span class="tech-pill">Food Pathogen Microbiology</span>
+                <span class="tech-pill">BLAST / NCBI / Ensembl</span>
+                <span class="tech-pill">Academic Symposium Defense</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="status-indicator-box">
+                <i class="fa-solid fa-trophy text-gold"></i>
+                <span>Award: 1st Place at MSA University Faculty Symposium</span>
+              </div>
+              <button class="btn btn-sm btn-outline-cyan open-modal-btn" data-modal="modal-multiomics">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: JellySkin 3D Hydrogel Sponge -->
+          <article class="project-card featured-award" data-category="bioprocess" id="project-jellyskin">
+            <div class="project-card-header">
+              <div class="project-type-tag">
+                <i class="fa-solid fa-water"></i> Industrial Research &middot; Marine Biotechnology
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-gold"><i class="fa-solid fa-medal"></i> Awarded a Medal</span>
+                <span class="badge badge-emerald">Biodegradable 3D Hydrogel</span>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">
+                JellySkin — Biodegradable 3D-Printed Hydrogel Sponge Integrated with Alcanivorax borkumensis for Marine Oil-Spill Remediation
+              </h3>
+
+              <div class="project-meta-grid">
+                <div class="p-meta-item">
+                  <span class="label">Research Question:</span>
+                  <p class="text">Can a 3D-printed biodegradable hydrogel matrix seeded with specialized hydrocarbonoclastic bacteria provide an eco-friendly, scalable solution for marine oil spills in Egypt?</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">Approach &amp; Methodology:</span>
+                  <p class="text">Designed a porous, biodegradable hydrogel sponge integrated with *Alcanivorax borkumensis*, combining immediate physical crude-oil entrapment with biological hydrocarbon degradation.</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">My Role:</span>
+                  <p class="text"><strong>Industrial Research Co-Designer:</strong> Contributed to the biological immobilization framework, bacterial culturing parameters, hydrogel formulation strategy, and project presentation.</p>
+                </div>
+              </div>
+
+              <div class="project-techniques">
+                <span class="tech-pill">Biodegradable Hydrogel Sponge</span>
+                <span class="tech-pill">3D-Printing Biomaterials</span>
+                <span class="tech-pill">Alcanivorax borkumensis Culturing</span>
+                <span class="tech-pill">Marine Oil-Spill Bioremediation</span>
+                <span class="tech-pill">Aseptic Microbiological Protocols</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="status-indicator-box">
+                <i class="fa-solid fa-medal text-gold"></i>
+                <span>Award: Awarded a Medal at MSA University</span>
+              </div>
+              <button class="btn btn-sm btn-outline-cyan open-modal-btn" data-modal="modal-jellyskin">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: CRISPR Salt Tolerance in Rice -->
+          <article class="project-card" data-category="bioinformatics" id="project-crispr">
+            <div class="project-card-header">
+              <div class="project-type-tag">
+                <i class="fa-solid fa-scissors"></i> Literature Review &middot; Precision Genome Editing
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-purple">CRISPR-Cas9</span>
+                <span class="badge badge-cyan">Crop Genomics</span>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">
+                Improving Salt Tolerance in Rice Using the CRISPR-Cas9 Technique: A Comprehensive Review
+              </h3>
+
+              <div class="project-meta-grid">
+                <div class="p-meta-item">
+                  <span class="label">Research Question:</span>
+                  <p class="text">What targeted genetic loci, sgRNA design strategies, and Cas9-mediated regulatory modifications yield significant salinity stress tolerance in rice (*Oryza sativa*)?</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">Approach &amp; Methodology:</span>
+                  <p class="text">Performed an in-depth review of published genomic literature on rice salt-tolerance genes, examining sgRNA design, plasmid delivery vectors (SnapGene logic), off-target mitigation, and phenotypic validation.</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">My Role:</span>
+                  <p class="text"><strong>Sole Author &amp; Presenter:</strong> Curated primary research literature, analyzed gene editing mechanisms, authored the monograph, and presented the findings at MSA University.</p>
+                </div>
+              </div>
+
+              <div class="project-techniques">
+                <span class="tech-pill">CRISPR-Cas9 Mechanics</span>
+                <span class="tech-pill">Target Gene Selection</span>
+                <span class="tech-pill">sgRNA &amp; Plasmid Principles</span>
+                <span class="tech-pill">Abiotic Stress Genomics</span>
+                <span class="tech-pill">Functional Literature Synthesis</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="status-indicator-box">
+                <i class="fa-solid fa-presentation-screen text-cyan"></i>
+                <span>Status: Authored &amp; Presented at MSA University</span>
+              </div>
+              <button class="btn btn-sm btn-outline-cyan open-modal-btn" data-modal="modal-crispr">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: Bioreactor Engineering -->
+          <article class="project-card" data-category="bioprocess" id="project-bioreactor">
+            <div class="project-card-header">
+              <div class="project-type-tag">
+                <i class="fa-solid fa-gears"></i> Coursework &middot; Biochemical Engineering
+              </div>
+              <div class="project-badges">
+                <span class="badge badge-cyan">Bioprocess Unit</span>
+                <span class="badge badge-emerald">Experimental Validation</span>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">
+                Bioreactor Engineering: Construction, Operation &amp; Experimental Validation
+              </h3>
+
+              <div class="project-meta-grid">
+                <div class="p-meta-item">
+                  <span class="label">Research Question:</span>
+                  <p class="text">How do reactor vessel design, impeller dynamics, aeration pathways, and aseptic parameter control govern microbial growth curves and biokinetic modeling?</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">Approach &amp; Methodology:</span>
+                  <p class="text">Physically constructed and wired functional benchtop bioreactor units for biochemical engineering coursework, followed by live microbial fermentation runs and kinetic data validation.</p>
+                </div>
+                <div class="p-meta-item">
+                  <span class="label">My Role:</span>
+                  <p class="text"><strong>System Builder &amp; Operator:</strong> Built functional reactor units, executed aseptic calibration runs, recorded growth metrics, and performed biokinetic modeling calculations.</p>
+                </div>
+              </div>
+
+              <div class="project-techniques">
+                <span class="tech-pill">Bioreactor Design &amp; Construction</span>
+                <span class="tech-pill">Biokinetic Modeling</span>
+                <span class="tech-pill">Aseptic Operation</span>
+                <span class="tech-pill">Fermentation Monitoring</span>
+                <span class="tech-pill">Bioprocess Engineering</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="status-indicator-box">
+                <i class="fa-solid fa-check-circle text-emerald"></i>
+                <span>Status: Constructed Functional Unit &middot; Validated</span>
+              </div>
+              <button class="btn btn-sm btn-outline-cyan open-modal-btn" data-modal="modal-bioreactor">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PUBLICATIONS & RESEARCH OUTPUT SECTION -->
+    <section id="publications" class="section publications-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-book-journal-whills"></i> Research Output</div>
+          <h2 class="section-title">Publications &amp; Manuscripts</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Scientific manuscripts currently submitted and undergoing academic peer review
+          </p>
+        </div>
+
+        <div class="pub-disclaimer">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span><strong>Transparency Note:</strong> As documented on official CV records, the following manuscripts are currently <strong>Under Review</strong> for peer-reviewed academic publication. Neither paper is claimed as published. Both list Doaa Mogahed as <strong>First Author</strong>.</span>
+        </div>
+
+        <div class="publications-list">
+          <!-- Manuscript 1 -->
+          <div class="pub-card" id="pub-1">
+            <div class="pub-badge-strip">
+              <span class="badge badge-warning"><i class="fa-solid fa-hourglass-half"></i> UNDER REVIEW</span>
+              <span class="badge badge-cyan"><i class="fa-solid fa-user-pen"></i> FIRST AUTHOR</span>
+              <span class="badge badge-accent"><i class="fa-solid fa-award"></i> Grade A+ Graduation Thesis</span>
+            </div>
+
+            <h3 class="pub-title">
+              Cu-Doped Bismuth Oxybromide (Cu-BiOBr) 3D Porous Sponge for Enhanced Lead (Pb²⁺) Adsorption from Wastewater
+            </h3>
+
+            <div class="pub-authors">
+              <span class="author-me">Doaa Mogahed</span> (First Author), et al.
+            </div>
+
+            <p class="pub-abstract">
+              Investigates the solvothermal synthesis of copper-doped bismuth oxybromide (Cu-BiOBr) micro/nanostructures engineered within a three-dimensional porous sponge scaffold. Evaluates adsorption kinetics, isotherms, and high-efficiency removal of toxic lead (Pb²⁺) ions from aqueous systems to support advanced wastewater treatment solutions.
+            </p>
+
+            <div class="pub-actions">
+              <button class="btn btn-sm btn-outline-cyan copy-citation-btn" data-citation="Mogahed, D. (Under Review). Cu-Doped Bismuth Oxybromide (Cu-BiOBr) 3D Porous Sponge for Enhanced Lead (Pb2+) Adsorption from Wastewater. First Author Manuscript, MSA University.">
+                <i class="fa-regular fa-copy"></i> Copy Academic Citation
+              </button>
+              <a href="#project-cu-biobr" class="btn btn-sm btn-ghost">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Jump to Project Card
+              </a>
+            </div>
+          </div>
+
+          <!-- Manuscript 2 -->
+          <div class="pub-card" id="pub-2">
+            <div class="pub-badge-strip">
+              <span class="badge badge-warning"><i class="fa-solid fa-hourglass-half"></i> UNDER REVIEW</span>
+              <span class="badge badge-cyan"><i class="fa-solid fa-user-pen"></i> FIRST AUTHOR</span>
+              <span class="badge badge-accent"><i class="fa-solid fa-award"></i> Grade: Very Good</span>
+            </div>
+
+            <h3 class="pub-title">
+              Role of Gamma Irradiation in Modulating Morphological, Physiological, and Biochemical Profiles of Eggplant Fruit
+            </h3>
+
+            <div class="pub-authors">
+              <span class="author-me">Doaa Mogahed</span> (First Author), et al.
+            </div>
+
+            <p class="pub-abstract">
+              Elucidates the biological responses of post-harvest eggplant fruit (*Solanum melongena*) exposed to varying levels of gamma irradiation. Analyzes changes in morphological characteristics, physiological hydration dynamics, antioxidant enzymatic behaviors, and biochemical constituents relevant to agricultural preservation.
+            </p>
+
+            <div class="pub-actions">
+              <button class="btn btn-sm btn-outline-cyan copy-citation-btn" data-citation="Mogahed, D. (Under Review). Role of Gamma Irradiation in Modulating Morphological, Physiological, and Biochemical Profiles of Eggplant Fruit. First Author Manuscript, MSA University.">
+                <i class="fa-regular fa-copy"></i> Copy Academic Citation
+              </button>
+              <a href="#project-gamma" class="btn btn-sm btn-ghost">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Jump to Project Card
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. BIOINFORMATICS & COMPUTATIONAL SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-dna"></i> Computational Toolkit</div>
+          <h2 class="section-title">Bioinformatics &amp; Computational Skills</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Dedicated computational biology competencies, database proficiencies, sequence software, and programming foundations strictly documented in CV
+          </p>
+        </div>
+
+        <div class="skills-categorized-grid">
+          
+          <!-- Category 1: Sequence Alignment & Analysis Tools -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-align-left"></i></div>
+              <div class="cat-title-wrap">
+                <h3 class="cat-title">Sequence Analysis &amp; Alignment</h3>
+                <span class="cat-badge proficient">Proficient in Tools</span>
+              </div>
+            </div>
+            <p class="cat-desc">Software and algorithms utilized for pairwise/multiple alignment, phylogenetics, and sequence manipulation.</p>
+            <div class="skill-tags-cloud">
+              <div class="skill-chip">
+                <span class="sc-name">BLAST</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">BioEdit</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Clustal Omega</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">MEGA</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">SnapGene</span>
+                <span class="sc-level">Plasmid Design</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">FASTA Handling</span>
+                <span class="sc-level">Practical</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Sequence Alignment</span>
+                <span class="sc-level">Practical</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Annotation</span>
+                <span class="sc-level">Practical</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Biological Databases & Repositories -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-database"></i></div>
+              <div class="cat-title-wrap">
+                <h3 class="cat-title">Databases &amp; Knowledgebases</h3>
+                <span class="cat-badge proficient">Proficient Navigation</span>
+              </div>
+            </div>
+            <p class="cat-desc">Systematic querying, extraction, and curation of genomic, proteomic, and bibliographic repositories.</p>
+            <div class="skill-tags-cloud">
+              <div class="skill-chip">
+                <span class="sc-name">NCBI / GenBank</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Ensembl</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">UniProt</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Genomic &amp; Proteomic Analysis</span>
+                <span class="sc-level">Hands-on</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">NGS Concepts</span>
+                <span class="sc-level">Foundational</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Programming & Sequence Tool Development -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
+              <div class="cat-title-wrap">
+                <h3 class="cat-title">Programming &amp; AI-Assisted Dev</h3>
+                <span class="cat-badge familiar">Coursework &amp; Familiarity</span>
+              </div>
+            </div>
+            <p class="cat-desc">Applied computing, AI-assisted development of DNA/protein sequence utilities, and language coursework.</p>
+            <div class="skill-tags-cloud">
+              <div class="skill-chip">
+                <span class="sc-name">AI-Assisted Programming</span>
+                <span class="sc-level">Familiar / Applied</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">DNA/Protein Analysis Tool Dev</span>
+                <span class="sc-level">Applied</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Visual Studio</span>
+                <span class="sc-level">Familiar</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Python</span>
+                <span class="sc-level">University Coursework</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">R</span>
+                <span class="sc-level">University Coursework</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">C++</span>
+                <span class="sc-level">University Coursework</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Biostatistics, Modeling & Scientific Visualization -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-chart-pie"></i></div>
+              <div class="cat-title-wrap">
+                <h3 class="cat-title">Biostatistics, Modeling &amp; Analysis</h3>
+                <span class="cat-badge proficient">Academic Applied</span>
+              </div>
+            </div>
+            <p class="cat-desc">Quantitative hypothesis testing, experimental design, biokinetic kinetics, and scientific image processing.</p>
+            <div class="skill-tags-cloud">
+              <div class="skill-chip">
+                <span class="sc-name">Experimental Design</span>
+                <span class="sc-level">Academic</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Hypothesis Testing</span>
+                <span class="sc-level">Academic</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Biokinetic Modeling</span>
+                <span class="sc-level">Coursework</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Data Visualization</span>
+                <span class="sc-level">Applied</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">Origin</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">ImageJ</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+              <div class="skill-chip">
+                <span class="sc-name">MS Office</span>
+                <span class="sc-level">Proficient</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. LABORATORY & TECHNICAL SKILLS SECTION -->
+    <section id="lab-skills" class="section lab-skills-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-flask"></i> Wet-Lab Instrumentation</div>
+          <h2 class="section-title">Laboratory &amp; Technical Skills</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Systematically categorized wet-lab methodologies, instrumentation, and diagnostic workflows strictly verified in CV
+          </p>
+        </div>
+
+        <div class="lab-categories-grid">
+
+          <!-- 1. Molecular Biology -->
+          <div class="lab-card">
+            <div class="lab-card-top">
+              <div class="lab-icon"><i class="fa-solid fa-dna"></i></div>
+              <h3>Molecular Biology</h3>
+            </div>
+            <ul class="lab-list">
+              <li><i class="fa-solid fa-circle-check"></i> DNA/RNA extraction &amp; purification</li>
+              <li><i class="fa-solid fa-circle-check"></i> Polymerase Chain Reaction (PCR)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Agarose gel electrophoresis</li>
+              <li><i class="fa-solid fa-circle-check"></i> Molecular diagnostics protocols</li>
+              <li><i class="fa-solid fa-circle-check"></i> Advanced genetics laboratory protocols</li>
+            </ul>
+          </div>
+
+          <!-- 2. Microbiology -->
+          <div class="lab-card">
+            <div class="lab-card-top">
+              <div class="lab-icon"><i class="fa-solid fa-bacterium"></i></div>
+              <h3>Microbiology</h3>
+            </div>
+            <ul class="lab-list">
+              <li><i class="fa-solid fa-circle-check"></i> Bacterial culturing &amp; isolation</li>
+              <li><i class="fa-solid fa-circle-check"></i> Bacterial strain identification</li>
+              <li><i class="fa-solid fa-circle-check"></i> Gram staining procedures</li>
+              <li><i class="fa-solid fa-circle-check"></i> Antibiotic susceptibility testing (AST)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Aseptic microbiological technique</li>
+            </ul>
+          </div>
+
+          <!-- 3. Cell & Tissue Culture -->
+          <div class="lab-card">
+            <div class="lab-card-top">
+              <div class="lab-icon"><i class="fa-solid fa-virus-covid"></i></div>
+              <h3>Cell &amp; Tissue Culture</h3>
+            </div>
+            <ul class="lab-list">
+              <li><i class="fa-solid fa-circle-check"></i> Mammalian cell line handling</li>
+              <li><i class="fa-solid fa-circle-check"></i> Plant cell/tissue culture media formulation</li>
+              <li><i class="fa-solid fa-circle-check"></i> Strict aseptic biological containment</li>
+              <li><i class="fa-solid fa-circle-check"></i> Cell viability &amp; maintenance</li>
+            </ul>
+          </div>
+
+          <!-- 4. Analytical Techniques -->
+          <div class="lab-card">
+            <div class="lab-card-top">
+              <div class="lab-icon"><i class="fa-solid fa-chart-column"></i></div>
+              <h3>Analytical Techniques</h3>
+            </div>
+            <ul class="lab-list">
+              <li><i class="fa-solid fa-circle-check"></i> HPLC sample preparation &amp; column operation</li>
+              <li><i class="fa-solid fa-circle-check"></i> Quantitative HPLC chromatography</li>
+              <li><i class="fa-solid fa-circle-check"></i> UV-Vis-NIR spectrophotometry</li>
+              <li><i class="fa-solid fa-circle-check"></i> Enzyme-Linked Immunosorbent Assay (ELISA)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Routine clinical biochemistry</li>
+            </ul>
+          </div>
+
+          <!-- 5. Bioprocessing & Nanotech -->
+          <div class="lab-card">
+            <div class="lab-card-top">
+              <div class="lab-icon"><i class="fa-solid fa-industry"></i></div>
+              <h3>Bioprocessing &amp; Nanomaterials</h3>
+            </div>
+            <ul class="lab-list">
+              <li><i class="fa-solid fa-circle-check"></i> Bioreactor design, construction &amp; operation</li>
+              <li><i class="fa-solid fa-circle-check"></i> Solvothermal nanomaterial synthesis</li>
+              <li><i class="fa-solid fa-circle-check"></i> 3D porous sponge / hydrogel matrix fabrication</li>
+              <li><i class="fa-solid fa-circle-check"></i> Biokinetic growth modeling</li>
+            </ul>
+          </div>
+
+          <!-- 6. Instrumentation & Software -->
+          <div class="lab-card">
+            <div class="lab-card-top">
+              <div class="lab-icon"><i class="fa-solid fa-sliders"></i></div>
+              <h3>Instrumentation &amp; Analysis</h3>
+            </div>
+            <ul class="lab-list">
+              <li><i class="fa-solid fa-circle-check"></i> High-Performance Liquid Chromatograph (HPLC)</li>
+              <li><i class="fa-solid fa-circle-check"></i> UV-Vis-NIR Spectrophotometers</li>
+              <li><i class="fa-solid fa-circle-check"></i> Benchtop Bioreactor units</li>
+              <li><i class="fa-solid fa-circle-check"></i> ImageJ (digital scientific image analysis)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Origin (scientific graphing &amp; peak fitting)</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. RESEARCH TRAINING & EXPERIENCE SECTION -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-briefcase"></i> Trajectory</div>
+          <h2 class="section-title">Research Training &amp; Experience</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Chronological distinction between clinical/research internships, freelance teaching, and industry immersion
+          </p>
+        </div>
+
+        <div class="timeline-container">
+
+          <!-- Item 1: Private Biology Tutor (Freelance) -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="timeline-badge freelance">Freelance Teaching</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> October 2025</span>
+              </div>
+              <h3 class="timeline-title">Private Biology Tutor</h3>
+              <div class="timeline-org"><i class="fa-solid fa-user-group"></i> Independent Freelance</div>
+              <p class="timeline-desc">
+                Delivered personalized, one-to-one biology lessons for secondary school students, breaking down complex cell biology, genetics, and physiological concepts to improve comprehension and academic performance.
+              </p>
+              <div class="timeline-skills">
+                <span class="t-pill">Biology Pedagogy</span>
+                <span class="t-pill">Genetics Curriculum</span>
+                <span class="t-pill">Individual Instruction</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Online University Biology Tutor (Freelance) -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-laptop"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="timeline-badge freelance">Freelance Teaching</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> April 2025</span>
+              </div>
+              <h3 class="timeline-title">Online University Biology Tutor</h3>
+              <div class="timeline-org"><i class="fa-solid fa-graduation-cap"></i> Saudi University Curriculum &middot; Remote</div>
+              <p class="timeline-desc">
+                Instructed introductory university-level biology (BIOL101) online to first-year undergraduate university students, aligning instructional modules with the official Saudi higher education biology curriculum.
+              </p>
+              <div class="timeline-skills">
+                <span class="t-pill">BIOL101 Curriculum</span>
+                <span class="t-pill">Higher Education Instruction</span>
+                <span class="t-pill">Remote Teaching</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Horticulture Research Institute -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-vial-circle-check"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="timeline-badge training">Research Traineeship</span>
+                <span class="timeline-date"><i class="fa-regular fa-clock"></i> 72-Hour Practical Training</span>
+              </div>
+              <h3 class="timeline-title">Research Trainee</h3>
+              <div class="timeline-org"><i class="fa-solid fa-seedling"></i> Horticulture Research Institute</div>
+              <p class="timeline-desc">
+                Completed 72 hours of intensive practical analytical training focusing on High-Performance Liquid Chromatography (HPLC): hands-on column operation, mobile phase preparation, sample extraction, and quantitative analytical chromatogram evaluation.
+              </p>
+              <div class="timeline-skills">
+                <span class="t-pill">HPLC Column Operation</span>
+                <span class="t-pill">Sample Preparation</span>
+                <span class="t-pill">Quantitative Chromatography</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Taiba Labs -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-microscope"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="timeline-badge training">Laboratory Traineeship</span>
+                <span class="timeline-date"><i class="fa-regular fa-hospital"></i> Multi-Branch Clinical Rotation</span>
+              </div>
+              <h3 class="timeline-title">Research Trainee</h3>
+              <div class="timeline-org"><i class="fa-solid fa-flask-vial"></i> Taiba Labs (6 Branch Rotation)</div>
+              <p class="timeline-desc">
+                Completed rotational laboratory training across 6 branches of Taiba Labs, mastering workflows in clinical medical diagnostics, routine clinical biochemistry, and advanced molecular diagnostic testing protocols.
+              </p>
+              <div class="timeline-skills">
+                <span class="t-pill">Medical Diagnostics</span>
+                <span class="t-pill">Routine Biochemistry</span>
+                <span class="t-pill">Molecular Analysis</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: National Research Centre (NRC) -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-lightbulb"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="timeline-badge industry">Innovation &amp; IPR Traineeship</span>
+                <span class="timeline-date"><i class="fa-regular fa-building"></i> Dokki, Giza</span>
+              </div>
+              <h3 class="timeline-title">Innovation &amp; IPR Trainee</h3>
+              <div class="timeline-org"><i class="fa-solid fa-award"></i> National Research Centre (NRC), Dokki</div>
+              <p class="timeline-desc">
+                Trained in intellectual property rights (IPR), biotechnology patent filing, commercialization of laboratory research breakthroughs, and foundational MBA business frameworks for life science technologies.
+              </p>
+              <div class="timeline-skills">
+                <span class="t-pill">Patents &amp; Intellectual Property</span>
+                <span class="t-pill">Biotech Commercialization</span>
+                <span class="t-pill">MBA Business Fundamentals</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6: Industry Projects & Tech Meetups -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><i class="fa-solid fa-handshake"></i></div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <span class="timeline-badge industry">Industry Engagement</span>
+                <span class="timeline-date"><i class="fa-solid fa-industry"></i> Industrial Partnerships</span>
+              </div>
+              <h3 class="timeline-title">Micro MBA &amp; Agritech Engagement</h3>
+              <div class="timeline-org"><i class="fa-solid fa-network-wired"></i> Industrial Partners (Egyboosters Factory &amp; Aqua Stream) &middot; MCIT</div>
+              <p class="timeline-desc">
+                Participated in the Micro MBA Project with industrial partners Egyboosters Factory &amp; Aqua Stream. Attended the Agritech Meetup organized by the Ministry of Communications and Information Technology (MCIT), examining technological interventions in modern agriculture.
+              </p>
+              <div class="timeline-skills">
+                <span class="t-pill">Industrial Agritech</span>
+                <span class="t-pill">MCIT Agritech Meetup</span>
+                <span class="t-pill">Micro MBA Project</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. ACHIEVEMENTS & AWARDS SECTION -->
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-trophy"></i> Recognition</div>
+          <h2 class="section-title">Honors &amp; Achievements</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Notable academic, symposium, and research honors documented on official CV
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+
+          <!-- Achievement 1: 1st Place Symposium -->
+          <div class="achievement-card gold-border">
+            <div class="achieve-badge-icon">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-rank">1st Place Winner</span>
+              <h3 class="achieve-title">Complex Genome Analysis Artifact Project</h3>
+              <div class="achieve-institution">MSA University Faculty Symposium</div>
+              <p class="achieve-desc">
+                Awarded First Place for an outstanding academic presentation on complex genome analysis and multiomics frameworks applied to food microbiology and safety surveillance.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 2: Medal for JellySkin -->
+          <div class="achievement-card silver-border">
+            <div class="achieve-badge-icon">
+              <i class="fa-solid fa-medal"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-rank">Awarded a Medal</span>
+              <h3 class="achieve-title">Industrial Research Project "JellySkin"</h3>
+              <div class="achieve-institution">MSA University Industrial Research</div>
+              <p class="achieve-desc">
+                Received a medal in recognition of innovative industrial research designing a biodegradable 3D-printed hydrogel sponge integrated with *Alcanivorax borkumensis* for marine oil-spill cleanup.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 3: Grade A+ (Excellent) -->
+          <div class="achievement-card cyan-border">
+            <div class="achieve-badge-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="achieve-content">
+              <span class="achieve-rank">Grade: A+ (Excellent)</span>
+              <h3 class="achieve-title">Cu-BiOBr 3D Porous Sponge Graduation Project</h3>
+              <div class="achieve-institution">Faculty of Biotechnology &middot; MSA &amp; Greenwich</div>
+              <p class="achieve-desc">
+                Achieved the highest honor grade of A+ for the experimental graduation thesis on solvothermal Cu-BiOBr sponge synthesis and heavy metal lead adsorption, now submitted as First Author.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><i class="fa-solid fa-paper-plane"></i> Get In Touch</div>
+          <h2 class="section-title">Contact &amp; Connect</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Open for entry-level bioinformatics roles, research assistant positions, computational biology labs, and graduate scholarship opportunities
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Cards -->
+          <div class="contact-card-box">
+            <h3 class="contact-box-title">Contact Information</h3>
+            <p class="contact-box-desc">
+              Feel free to reach out directly via institutional email or telephone. I welcome inquiries regarding research collaborations, bioinformatics positions, and postgraduate scholarship opportunities.
+            </p>
+
+            <div class="contact-list">
+              <div class="contact-row">
+                <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="c-details">
+                  <span class="c-label">Institutional Email:</span>
+                  <a href="mailto:doaa.mogahed@msa.edu" class="c-link" id="contact-email">doaa.mogahed@msa.edu</a>
+                </div>
+                <button class="copy-btn" id="copyEmailBtn" title="Copy email address" aria-label="Copy email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <div class="contact-row">
+                <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="c-details">
+                  <span class="c-label">Mobile Telephone:</span>
+                  <a href="tel:+201226681807" class="c-link">+20 1226681807</a>
+                </div>
+                <button class="copy-btn" id="copyPhoneBtn" title="Copy phone number" aria-label="Copy phone">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <div class="contact-row">
+                <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="c-details">
+                  <span class="c-label">Location:</span>
+                  <span class="c-val">Qaliobia &ndash; Egypt</span>
+                </div>
+              </div>
+
+              <div class="contact-row">
+                <div class="c-icon"><i class="fa-solid fa-language"></i></div>
+                <div class="c-details">
+                  <span class="c-label">Working Languages:</span>
+                  <span class="c-val">English (Fluent) &middot; Arabic (Native)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Resume Download Box -->
+            <div class="resume-download-card">
+              <div class="rd-icon"><i class="fa-solid fa-file-pdf"></i></div>
+              <div class="rd-text">
+                <h4>Official Curriculum Vitae</h4>
+                <p>Download the complete academic &amp; laboratory CV in PDF format.</p>
+              </div>
+              <a href="Doaa_Mogahed_CV.pdf" download="Doaa_Mogahed_CV.pdf" class="btn btn-primary btn-sm" id="footer-download-cv">
+                <i class="fa-solid fa-download"></i> Download
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Message / Inquiry Helper -->
+          <div class="inquiry-card-box">
+            <h3 class="contact-box-title">Inquiry Quick Dispatch</h3>
+            <p class="contact-box-desc">
+              Send a pre-formatted email directly to Doaa Mogahed from your default mail client.
+            </p>
+
+            <form id="quickContactForm" class="inquiry-form" onsubmit="event.preventDefault(); window.location.href='mailto:doaa.mogahed@msa.edu?subject=' + encodeURIComponent(document.getElementById('subjectInput').value || 'Research Inquiry') + '&body=' + encodeURIComponent('Hello Doaa,\n\n' + document.getElementById('messageInput').value); return false;">
+              <div class="form-group">
+                <label for="subjectInput">Subject / Purpose</label>
+                <input type="text" id="subjectInput" class="form-input" placeholder="e.g. Bioinformatics Research Assistant Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="messageInput">Message Brief</label>
+                <textarea id="messageInput" class="form-input textarea" rows="4" placeholder="Write your message or inquiry here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                <i class="fa-solid fa-paper-plane"></i> Launch Email Draft (to doaa.mogahed@msa.edu)
+              </button>
+            </form>
+            
+            <div class="social-note">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>Professional networks (LinkedIn / GitHub) can be linked as supplied. Contact directly via institutional email.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Modals (Detailed breakdowns) -->
+
+  <!-- Modal 1: Cu-BiOBr -->
+  <div class="modal-overlay" id="modal-cu-biobr" role="dialog" aria-modal="true" aria-labelledby="modal-cu-biobr-title" hidden>
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="badge badge-accent">Grade: A+ (Excellent)</span>
+        <span class="badge badge-warning">Under Review</span>
+        <span class="badge badge-cyan">First Author</span>
+        <h3 id="modal-cu-biobr-title" class="modal-title">
+          Cu-Doped Bismuth Oxybromide (Cu-BiOBr) 3D Porous Sponge for Enhanced Lead (Pb²⁺) Adsorption from Wastewater
+        </h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-circle-question"></i> Problem &amp; Research Question</h4>
+          <p>Industrial effluents frequently discharge toxic divalent lead (Pb²⁺) into aquatic ecosystems, posing severe biological risks. Traditional adsorbents face kinetics limitations and poor reusability. The research addressed: How can copper doping modulate the electronic structure of bismuth oxybromide (BiOBr) within a 3D porous sponge scaffold to dramatically accelerate Pb²⁺ adsorption capacity?</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-flask-vial"></i> Approach &amp; Methodology</h4>
+          <p>Synthesized Cu-doped BiOBr nanostructures through solvothermal synthesis; integrated the resulting composite into a durable 3D porous sponge matrix. Executed adsorption equilibrium runs, varying contact time, dosage, and metal concentration, and performed optical characterization via UV-Vis-NIR spectrophotometry.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-user-check"></i> My Role</h4>
+          <p><strong>First Author &amp; Lead Researcher:</strong> Executed solvothermal synthesis protocols, sample preparations, spectrophotometric measurements, adsorption isotherms/kinetics modeling, and authored the academic publication manuscript.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-wrench"></i> Key Skills &amp; Techniques</h4>
+          <div class="modal-pills">
+            <span>Solvothermal Nanomaterial Synthesis</span>
+            <span>3D Porous Sponge Fabrication</span>
+            <span>UV-Vis-NIR Spectrophotometry</span>
+            <span>Heavy Metal (Pb²⁺) Adsorption</span>
+            <span>Origin Data Fitting</span>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-award"></i> Outcome &amp; Achievement</h4>
+          <p>Awarded an <strong>A+ (Excellent)</strong> grade by the faculty evaluation committee. The manuscript has been prepared and submitted for publication, currently <strong>Under Review</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Gamma Irradiation -->
+  <div class="modal-overlay" id="modal-gamma" role="dialog" aria-modal="true" aria-labelledby="modal-gamma-title" hidden>
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="badge badge-accent">Grade: Very Good</span>
+        <span class="badge badge-warning">Under Review</span>
+        <span class="badge badge-cyan">First Author</span>
+        <h3 id="modal-gamma-title" class="modal-title">
+          Role of Gamma Irradiation in Modulating Morphological, Physiological, and Biochemical Profiles of Eggplant Fruit
+        </h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-circle-question"></i> Problem &amp; Research Question</h4>
+          <p>Post-harvest loss in agricultural produce represents a major economic and nutritional bottleneck. This investigation sought to examine how calibrated ionizing gamma radiation modulates morphological characteristics, physiological behavior, and biochemical defense compounds in eggplant (*Solanum melongena*) fruit.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-flask-vial"></i> Approach &amp; Methodology</h4>
+          <p>Applied calibrated gamma irradiation to fruit specimens. Monitored post-exposure morphological shifts, measured physiological moisture/mass changes, and extracted biochemical markers via spectrophotometric enzyme and metabolite assays.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-user-check"></i> My Role</h4>
+          <p><strong>First Author &amp; Researcher:</strong> Conducted physiological measurements, plant tissue biochemical extractions, quantitative spectrophotometry, statistical evaluation, and authored the complete research paper.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-wrench"></i> Key Skills &amp; Techniques</h4>
+          <div class="modal-pills">
+            <span>Plant Tissue Handling</span>
+            <span>Gamma Radiation Exposure Protocols</span>
+            <span>Biochemical Assays</span>
+            <span>Spectrophotometric Quantification</span>
+            <span>Statistical Analysis</span>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-award"></i> Outcome &amp; Achievement</h4>
+          <p>Graded <strong>Very Good</strong>. Authored paper submitted as First Author, currently <strong>Under Review</strong> for peer-reviewed publication.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Complex Genome Analysis -->
+  <div class="modal-overlay" id="modal-multiomics" role="dialog" aria-modal="true" aria-labelledby="modal-multiomics-title" hidden>
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="badge badge-gold"><i class="fa-solid fa-trophy"></i> 1st Place</span>
+        <span class="badge badge-purple">Multiomics &amp; Genomics</span>
+        <h3 id="modal-multiomics-title" class="modal-title">
+          Complex Genome Analysis / Multiomics in Food Microbiology and Safety
+        </h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-circle-question"></i> Problem &amp; Research Question</h4>
+          <p>Foodborne pathogens and contamination present complex microbial threats requiring more than traditional phenotypic assays. How can integrative multiomics and deep microbial genome analysis enhance microbial identification, virulence factor annotation, and food safety risk assessment?</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-flask-vial"></i> Approach &amp; Methodology</h4>
+          <p>Conducted genome-level comparative analysis using biological sequence alignment, database queries across NCBI/GenBank and Ensembl, and conceptual integration of multiomic datasets (genomics, transcriptomics, proteomics) in food safety microbiology.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-user-check"></i> My Role</h4>
+          <p><strong>Lead Author &amp; Symposium Presenter:</strong> Investigated genomic features, structured the multiomics framework, built the presentation artifact, and delivered an oral defense to faculty evaluators.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-wrench"></i> Key Skills &amp; Techniques</h4>
+          <div class="modal-pills">
+            <span>Complex Genome Analysis</span>
+            <span>Multiomics Frameworks</span>
+            <span>Food Microbiology Safety</span>
+            <span>NCBI &amp; Ensembl Queries</span>
+            <span>Academic Presentation Defense</span>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-award"></i> Outcome &amp; Achievement</h4>
+          <p>Won <strong>1st Place</strong> at the MSA University Faculty Symposium for outstanding presentation and research quality.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: JellySkin -->
+  <div class="modal-overlay" id="modal-jellyskin" role="dialog" aria-modal="true" aria-labelledby="modal-jellyskin-title" hidden>
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="badge badge-gold"><i class="fa-solid fa-medal"></i> Awarded a Medal</span>
+        <span class="badge badge-emerald">Industrial Research</span>
+        <h3 id="modal-jellyskin-title" class="modal-title">
+          Industrial Research Project "JellySkin" — Marine Oil-Spill Remediation
+        </h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-circle-question"></i> Problem &amp; Research Question</h4>
+          <p>Marine oil spills off Egypt's coast cause catastrophic environmental harm. Conventional chemical dispersants cause secondary toxicity. Can a biodegradable, 3D-printed hydrogel sponge integrated with oil-degrading bacteria provide a clean, sustainable bioremediation alternative?</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-flask-vial"></i> Approach &amp; Methodology</h4>
+          <p>Engineered a 3D-printed biodegradable hydrogel matrix acting as both a mechanical absorbent for crude oil and a bio-support carrier for <em>Alcanivorax borkumensis</em>, a marine bacterium specialized in hydrocarbon degradation.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-user-check"></i> My Role</h4>
+          <p><strong>Industrial Research Project Co-Designer:</strong> Contributed to the hydrogel formulation strategy, microbial culturing requirements of <em>A. borkumensis</em>, and collaborative design of the prototype.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-wrench"></i> Key Skills &amp; Techniques</h4>
+          <div class="modal-pills">
+            <span>Biodegradable Hydrogel Formulation</span>
+            <span>3D-Printing Integration</span>
+            <span>Alcanivorax borkumensis Handling</span>
+            <span>Marine Hydrocarbon Degradation</span>
+            <span>Industrial Environmental Biotech</span>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-award"></i> Outcome &amp; Achievement</h4>
+          <p>Recognized by MSA University and <strong>Awarded a Medal</strong> for outstanding industrial biotechnology research.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: CRISPR -->
+  <div class="modal-overlay" id="modal-crispr" role="dialog" aria-modal="true" aria-labelledby="modal-crispr-title" hidden>
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="badge badge-purple">Genome Editing</span>
+        <span class="badge badge-cyan">Monograph &amp; Presentation</span>
+        <h3 id="modal-crispr-title" class="modal-title">
+          Improving Salt Tolerance in Rice Using the CRISPR-Cas9 Technique
+        </h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-circle-question"></i> Problem &amp; Research Question</h4>
+          <p>Soil salinity affects over 20% of irrigated agricultural land, severely diminishing rice yields. How can CRISPR-Cas9 precision genome editing be deployed to target salinity-sensitive regulatory genes and transporter channels in rice (*Oryza sativa*)?</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-flask-vial"></i> Approach &amp; Methodology</h4>
+          <p>Conducted an extensive literature analysis of CRISPR-Cas9 applications in monocot crops, analyzing sgRNA design criteria, vector construct architectures using SnapGene principles, target gene knockouts (such as OsRR22, HKT transporters), and off-target avoidance.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-user-check"></i> My Role</h4>
+          <p><strong>Sole Author &amp; Presenter:</strong> Conducted comprehensive review, synthesized gene editing strategies, and delivered an oral presentation at MSA University.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-wrench"></i> Key Skills &amp; Techniques</h4>
+          <div class="modal-pills">
+            <span>CRISPR-Cas9 System Mechanics</span>
+            <span>Plasmid Design (SnapGene)</span>
+            <span>Target Gene Loci Selection</span>
+            <span>Crop Functional Genomics</span>
+            <span>Scientific Literature Synthesis</span>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-award"></i> Outcome &amp; Achievement</h4>
+          <p>Authored and presented a commended review paper entitled "Improving Salt Tolerance in Rice Using the CRISPR-Cas9 Technique" at MSA University.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6: Bioreactor -->
+  <div class="modal-overlay" id="modal-bioreactor" role="dialog" aria-modal="true" aria-labelledby="modal-bioreactor-title" hidden>
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="badge badge-cyan">Coursework Unit</span>
+        <span class="badge badge-emerald">Experimental Validation</span>
+        <h3 id="modal-bioreactor-title" class="modal-title">
+          Bioreactor Engineering: Construction, Operation &amp; Experimental Validation
+        </h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-circle-question"></i> Problem &amp; Research Question</h4>
+          <p>How does physical vessel geometry, agitation speed, dissolved oxygen transfer, and temperature regulation influence microbial batch growth kinetics in benchtop biochemical reactors?</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-flask-vial"></i> Approach &amp; Methodology</h4>
+          <p>Designed and constructed functional bioreactor units, calibrated sensors, implemented aseptic protocols, performed bacterial fermentations, and applied biokinetic mathematical models to validate system operation.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-user-check"></i> My Role</h4>
+          <p><strong>Builder &amp; Experimental Operator:</strong> Constructed functional bioreactor units for biochemical engineering coursework, maintained sterile operating conditions, and completed kinetic validation.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-wrench"></i> Key Skills &amp; Techniques</h4>
+          <div class="modal-pills">
+            <span>Bioreactor Design &amp; Assembly</span>
+            <span>Aseptic Parameter Control</span>
+            <span>Biokinetic Growth Modeling</span>
+            <span>Fermentation Monitoring</span>
+            <span>Engineering Troubleshooting</span>
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4><i class="fa-solid fa-award"></i> Outcome &amp; Achievement</h4>
+          <p>Successfully built and validated operational bioreactor units fulfilling coursework requirements with high experimental accuracy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-text">
+            <span class="logo-name"><i class="fa-solid fa-dna text-cyan"></i> Doaa Mogahed</span>
+            <span class="logo-sub">Biotechnology Graduate &middot; Bioinformatics &amp; Computational Biology</span>
+          </div>
+          <p class="footer-bio-short">
+            Dedicated to advancing biological discovery through sequence analysis, molecular biology, and computational methods.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#research">Research &amp; Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4 class="footer-heading">Direct Details</h4>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:doaa.mogahed@msa.edu">doaa.mogahed@msa.edu</a></p>
+          <p><i class="fa-solid fa-phone"></i> +20 1226681807</p>
+          <p><i class="fa-solid fa-location-dot"></i> Qaliobia, Egypt</p>
+          <p><i class="fa-solid fa-certificate"></i> Dual B.Sc. (MSA &amp; Greenwich)</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Doaa Mogahed. Academic &amp; Research Portfolio. All content verified strictly against official curriculum vitae.
+        </div>
+        <div class="footer-cv-cta">
+          <a href="Doaa_Mogahed_CV.pdf" download="Doaa_Mogahed_CV.pdf" class="btn btn-sm btn-outline-cyan">
+            <i class="fa-solid fa-download"></i> Official CV (PDF)
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
